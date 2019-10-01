@@ -13,11 +13,11 @@
     echo '$number';
     echo "<br>$number";
     $calkowita = 100;
-    $szesnastkowa = 0xA;
-    echo "<br>$szesnastkowa";
-    $osemkowa = 010;
+    $szesnastkowa = 0xA; //0x deklaracja liczby szesnastkowej
+    echo "<br>$szesnastkowa"; 
+    $osemkowa = 010;    //01 deklracja liczby ósmej
     echo '<br>'.$osemkowa;
-    $binarna = 0b1010;
+    $binarna = 0b1010;   //0b deklaracja liczby binarnej
     echo '<br>',$binarna;
     //skladnia heardoc 1.Etykieta na samym początku 2. Nie może być spacji po etykietch.
     $imie = 'Janusz';
